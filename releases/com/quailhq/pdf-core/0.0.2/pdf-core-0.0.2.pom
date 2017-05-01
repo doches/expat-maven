@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.quailhq</groupId>
+  <artifactId>pdf-core</artifactId>
+  <version>0.0.2</version>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>19.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.pdfbox</groupId>
+      <artifactId>pdfbox</artifactId>
+      <version>2.0.4</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+  <name>pdf-core</name>
+  <description/>
+  <properties>
+    <nebula_Manifest_Version>1.0</nebula_Manifest_Version>
+    <nebula_Implementation_Title>com.quailhq#pdf-core;0.0.2</nebula_Implementation_Title>
+    <nebula_Implementation_Version>0.0.2</nebula_Implementation_Version>
+    <nebula_Built_Status>integration</nebula_Built_Status>
+    <nebula_Built_By>tfountain</nebula_Built_By>
+    <nebula_Built_OS>Mac OS X</nebula_Built_OS>
+    <nebula_Build_Date>2017-02-16_00:12:00</nebula_Build_Date>
+    <nebula_Gradle_Version>3.2.1</nebula_Gradle_Version>
+    <nebula_Module_Source>/pdf-core</nebula_Module_Source>
+    <nebula_Module_Origin>git@texasexpat.net:quail-pdf.git</nebula_Module_Origin>
+    <nebula_Change>0d377da</nebula_Change>
+    <nebula_Branch>0d377daf2f59cd14f27e09ce4b00ab6489dcb2f0</nebula_Branch>
+    <nebula_Build_Host>tfountain-mbp</nebula_Build_Host>
+    <nebula_Build_Job>LOCAL</nebula_Build_Job>
+    <nebula_Build_Number>LOCAL</nebula_Build_Number>
+    <nebula_Build_Id>LOCAL</nebula_Build_Id>
+    <nebula_Created_By>1.8.0_51-b16 (Oracle Corporation)</nebula_Created_By>
+    <nebula_Build_Java_Version>1.8.0_51</nebula_Build_Java_Version>
+    <nebula_X_Compile_Target_JDK>1.8</nebula_X_Compile_Target_JDK>
+    <nebula_X_Compile_Source_JDK>1.8</nebula_X_Compile_Source_JDK>
+  </properties>
+  <url>https://texasexpat.net/quail-pdf</url>
+  <scm>
+    <url>git@texasexpat.net:quail-pdf.git</url>
+  </scm>
+</project>
